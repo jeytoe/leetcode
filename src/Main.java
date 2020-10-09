@@ -1,9 +1,12 @@
 import numberofgoodpairs.NumberOfGoodPairs;
+import reducetozero.NumberOfStepsToReduceToZero;
 import shufflearray.ShuffleArray;
+import shufflestring.ShuffleString;
+import smallerthancurrentnumber.SmallerThanCurrentNumber;
 
 public class Main {
     public static void main(String[] args){
-        NumberOfGoodPairs n = new NumberOfGoodPairs();
-        n.numIdenticalPairs(new int[] {1,2,3,1,1,3});
+        SmallerThanCurrentNumber n = new SmallerThanCurrentNumber();
+        n.smallerNumbersThanCurrent(new int[]{7,1,2,2,1,3,6});
     }
 }
